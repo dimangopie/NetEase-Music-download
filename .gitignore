@@ -8,6 +8,13 @@ main.spec
 .idea
 .idea/
 .idea/*
+.idea/.gitignore
+.idea/NetEase-Music-download.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
 *.iws
 *.iml
 *.ipr
