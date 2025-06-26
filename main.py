@@ -185,6 +185,8 @@ def process_song_v1(url, level):
                 if not os.path.exists(save_dir):
                     os.makedirs(save_dir)
                 file_name = song_name + song_arname +get_file_extension(song_url)
+                valid_chars = "/\\*?:\"\'|<>"
+                file_name = ''.join((c if c not in valid_chars else "_") for c in file_name)
                 file_path = os.path.join(save_dir, file_name)
                 with open(file_path, 'wb') as f:
                     f.write(response.content)
