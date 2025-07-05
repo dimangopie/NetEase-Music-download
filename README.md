@@ -48,3 +48,6 @@ python main.py
 
 ## 反馈方法
 请在Github的lssues反馈，欢迎提PR！若有侵权可联系删除。
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/dimangopie/NetEase-Music-download.svg?variant=adaptive)](https://starchart.cc/dimangopie/NetEase-Music-download)
